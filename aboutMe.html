@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css"><link rel="stylesheet" href="css/adaptiv.css">
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__osnova">
+            <div class="header__osnova-left">
+                <a href="main.html"><img src="img/logo.png" alt="" class="logo"></a>
+                <a href="main.html#section__menu" onclick="changePosition(1)"><button class="header__left-home header__button">Для дому</button></a>
+                <a href="main.html#section__menu" onclick="changePosition(4)"><button class="header__left-biznec header__button">Для бізнесу</button></a>
+            </div>
+            <div class="header__osnova-right">
+                <a href="map.html"><img src="img/gps.png" alt="" class="gps"></a>
+                <img src="img/user.png" alt="" class="header__right-user">
+                <button class="header__button-link adaptiv">Особитий кабінет</button>
+                <nav>
+                    <a href="/">
+                      <img src="./Untitled70_20231129182816.png" alt="">
+                    </a>
+                    <input id="burger-toggle" type="checkbox">
+                    <label for="burger-toggle" class="burgerburger" id="super_label">
+                      <span></span>
+                    </label>
+                    <ul class="header__list">
+                      <li>
+                        <a href="main.html" class="header__link">Тарифи</a>
+                      </li>
+                      <li>
+                        <a href="shares.html" class="header__link">Акції</a>
+                      </li>
+                      <li>
+                        <a href="payment.html" class="header__link">Оплата</a>
+                      </li>
+                      <li>
+                        <a href="map.html" class="header__link">Покриття</a>
+                      </li>
+                      <li>
+                        <a href="help.html" class="header__link">Допомога</a>
+                      </li>
+                      <li>
+                        <a href="aboutMe.html" class="header__link">Про нас</a>
+                      </li>
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <article class="article__osnova">
+        <div class="article__osnova_div">
+            <div class="article__osnova-menu">
+                <div class="dob-left">
+                    <ul class="article__osnova-ul">
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="main.html">Тарифи</a></li>
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="shares.html">Акції</a></li>
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="payment.html">Оплата</a>
+                    </ul>
+                </div>
+                <div class="dob-right">
+                    <ul class="article__osnova-ul">
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="map.html">Покриття</a></li>
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="help.html">Допомога</a></li>
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="aboutMe.html">Про нас</a></li>
+                    </ul>
+                </div>
+                
+                <img src="img/polosa.png" alt="" class="header__polosa-right">
+                    <img src="img/polosa.png" alt="" class="header__polosa-left">
+                <img src="img/blaze.png" alt="" class="blize">
+            </div>
+            <div class="swiper-button-pre"><img src="img/left.png" alt="" class="left"></div>
+            <div class="swiper-button-nex"><img src="img/right.png" alt="" class="right"></div> 
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><div class="article__osnova-block ">
+                
+                        <div class="osnova_block-left">
+                            <div class="block__osnova_adaptiv">
+                                <h1 class="osnova__block-left-h1">Акція “Приводь друга - отримуй гроші!”</h1>
+                            <p class="osnova__block-left-p">Отримуй <b>бонус</b> в розмірі <b>50</b> грн на особистий рахунок!</p>
+                            <a href="shares.html#sharess"><button class="article-connect1">Підключити</button></a>
+                            </div>
+                        </div>
+                        <div class="osnova_block-right">
+                            <img src="img/musik.png" alt="" class="musik">
+                        </div>
+                    </div></div>
+
+                    
+                </div>
+              </div> 
+                
+        </div>
+    </article>
+    <section class="section__polosa">
+        
+        <div class="section__polosa-items">
+            <div class="section__polosa-item">
+                <img src="img/glav1.png" alt="" class="section__polosa-img">
+                <h2 class="section__polosa-h2">Новітні технології</h2>
+        </div>
+            <div class="section__polosa-item">
+                <img src="img/glav2.png" alt="" class="section__polosa-img">
+                <h2 class="section__polosa-h2">Великий вибір тарифів</h2>
+            </div>
+            <div class="section__polosa-item">
+                <img src="img/glav3.png" alt="" class="section__polosa-img">
+                <h2 class="section__polosa-h2">Працюємо без світла</h2>
+            </div>
+        </div>
+    </section>
+
+    <section class="aboutMe__section">
+            <h1 class="block1__aboutMe-h1">Наша команда</h1>
+            <div class="herous__items">
+                <div class="items__aboutMe-one">
+                    <div class="block__aboutMe-one">
+                        <img src="/img/shares.png" alt="" class="herous-img-1">
+                    </div>
+                    <p class="text__aboutMe-one-p">Ірина Менеджер</p>
+                </div>
+                <div class="items__aboutMe-two">
+                    <div class="block__aboutMe-two"><img src="/img/shares2.png" alt="" class="herous-img-1"></div>
+                    <p class="text__aboutMe-two-p">Оксана Менеджер</p>
+                </div>
+                <div class="items__aboutMe-three">
+                    <div class="block__aboutMe-three"><img src="/img/shares1.png" alt="" class="herous-img-1"></div>
+                    <p class="text__aboutMe-three-p">ЧЧЧЧЧ Менеджер</p>
+                </div>
+            </div>
+            <div class="aboutMe__section-button">
+                <div class="aboutMe__button_block">
+                    <h1 class="aboutMe__button-h1">Наші ініціативи</h1>
+                    <div class="block__buttons">
+                        <button class="aboutMe__button aboutMe__button-1" onclick="button1()">Допомога ЗСУ</button>
+                        <button class="aboutMe__button aboutMe__button-2" onclick="button2()">Міжнародні гранти</button>
+                        <button class="aboutMe__button aboutMe__button-3" onclick="button3()">Наше навчання</button>
+                    </div>
+                </div>
+            </div>
+            <div class="content__aboutMe">
+                <div class="content__block_aboutMe-1">
+                    <h1 class="h1__aboutMe-button-adaptive">PSTS завжди підтримує наших справжніх героїв - захисників України!</h1>
+                    <div class="img__block_aboutMe-1"><img src="/img/aboutMe-1.png" alt="" class="img__aboutMe-1"></div>
+                <div class="text__aboutMe-1">
+                    <h1 class="h1__aboutMe-button-1">PSTS завжди підтримує наших справжніх героїв - захисників України!</h1>
+                    <h6 class="h6__aboutMe-button-1" >Ми віримо в силу та мужність наших військовослужбовців та стоїмо пліч-о-пліч зі Збройними Силами України у захисті нашої країни та нашого миру.</h6>
+                    <h6 class="h6__aboutMe-button-1">У цей важкий час ми висловлюємо нашу повну підтримку та вдячність всім військовим, які ризикують своїм життям заради нашої безпеки та майбутнього.</h6>
+                    <h6 class="h6__aboutMe-button-1"><b>PSTS</b> обіцяє продовжувати підтримувати <b>ЗСУ</b> та <b>їх сім'ї</b>, надаючи найкращі технології та Інтернет-з'єднання для зв'язку та інформування.</h6>
+                    <h4 class="h4__aboutMe-button-1">Нехай мирна небесна батьківщина завжди буде під захистом наших сміливих захисників!</h4>
+                </div></div>
+
+                <div class="content__block_aboutMe-2">
+                    <h1 class="h1__aboutMe-button-adaptive">NOGUA - Network Operators Group of Ukraine!</h1>
+                    <div class="img__block_aboutMe-2"><img src="/img/aboutMe-2.png" alt="" class="img__aboutMe-2"></div>
+                    
+                <div class="text__aboutMe-1">
+                    <h1 class="h1__aboutMe-button-1">NOGUA - Network Operators Group of Ukraine!</h1>
+                    <h6 class="h6__aboutMe-button-1"><b>Індивідувальний</b> грант на участь у конференції NOGUA - Network Operators Group of Ukraine! Дата: 3-6 червня 2024 р., Львів, Україна</h6>
+                </div>
+                </div>
+
+                <div class="content__block_aboutMe-3">
+                    <h1 class="h1__aboutMe-button-adaptive">NOGUA - Network Operators Group of Ukraine!</h1>
+                    <div class="img__block_aboutMe-2"><img src="/img/aboutMe-2.png" alt="" class="img__aboutMe-2"></div>
+                                    <div class="text__aboutMe-1">
+                    <h1 class="h1__aboutMe-button-1">NOGUA - Network Operators Group of Ukraine!</h1>
+                    <h6 class="h6__aboutMe-button-1"><b>Індивідувальний</b> грант на участь у конференції NOGUA - Network Operators Group of Ukraine! Дата: 3-6 червня 2024 р., Львів, Україна (3 слайд)</h6>
+                </div>
+                </div>
+            </div>
+    </section>
+   
+    <section class="section__polosa-two">
+        <h1 class="section__polosa-two-h1">Всього один дзвінок відділяє вас від підключення до PSTS</h1>
+        <p class="section__polosa-two-p">Вкажіть свій номер телефону та очікуйте на зворотній зв’язок</p>
+        <button class="section__polosa-two-button">Номер телефону <img src="img/mobile.png" alt="" class="section__polosa-two-mobile"></button>
+    </section>
+
+
+    <section class="section__blocks-four">
+        <div class="section__block-four">
+            <div class="obb">
+                <div class="one__obb"><h1 class="block-four-h1">Чернішова Інна</h1></div>
+                <img src="img/check-mark.png" alt="" class="block-four-img">
+        </div>
+            <p class="block-four-p">Добрий день! Хочу поділитись досвідом підключення інтернету. Дуже подобається швидкість та ціна! Великим плюсом є робота операторів, які в разі будь-який питань завжди на зв’язку та готові допомогти. Обожнюю psts, дякую вам за вашу роботу!</p>
+
+        </div>
+        <div class="section__block-four">
+            <div class="obb">
+                <div class="one__obb"><h1 class="block-four-h1">Петренко Богдан</h1></div>
+                <img src="img/check-mark.png" alt="" class="block-four-img">
+        </div>
+           
+            <p class="block-four-p">Добрий день! Хочу поділитись досвідом підключення інтернету. Дуже подобається швидкість та ціна! Великим плюсом є робота операторів, які в разі будь-який питань завжди на зв’язку та готові допомогти. Обожнюю psts, дякую вам за вашу роботу!</p>
+
+        </div>
+        <div class="section__block-four">
+            <div class="obb">
+                <div class="one__obb"><h1 class="block-four-h1">Іванченко Ірина</h1></div>
+                <img src="img/check-mark.png" alt="" class="block-four-img">
+        </div>
+            
+            <p class="block-four-p">Третій раз змінюю інтернет-провайдера за цей рік. Нарешті підключила дійсно швидкий та гарний інтернет. Все працює без перебоїв! Дуже рекомендую!</p>
+
+        </div>
+    </section>
+    
+    <div class="button__dop-four"><button class="section__button-four">Більше відгуків</button></div>
+
+
+    <footer class="footer">
+        <div class="footer__bar-menu">
+            <ul class="footer__menu-ul">
+                <li class="footer__menu-li"><a href="main.html" class="footer__menu-a ">Тaрифи</a></li>
+                <li class="footer__menu-li"><a href="shares.html" class="footer__menu-a">Акції</a></li>
+                <li class="footer__menu-li"><a href="payment.html" class="footer__menu-a">Оплата</a></li>
+                <li class="footer__menu-li"><a href="map.html" class="footer__menu-a">Покриття</a></li>
+                <li class="footer__menu-li"><a href="help.html" class="footer__menu-a">Допомога</a></li>
+                <li class="footer__menu-li"><a href="help.html" class="footer__menu-a">Про нас</a></li>
+            </ul>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-3 footer__block-one">
+                <img src="img/logo.png" alt="" class="footer-logo">
+                <p class="footer-p">Швидкість, якість та<br> зручність у кожному<br> кліку</p>
+                <p class="footer-p-adaptiv">Швидкість, якість та<br> зручність у кожному<br> кліку</p>
+
+              </div>
+              <div class="col-3 footer__block-two">
+                
+                <div class="footer__two-text"><b>Адреса:</b>
+                    
+                    <br>пр-т Курський, 18а,<br> оф. PSTS 
+                    <br><b>Графік роботи:</b>
+                    <br>Пн.-Нд. - 9:00-18:00</div>
+              </div>
+              <div class="col-3 footer__block-three">
+                <h4 class="h44"><b>Телефони:</b></h4>
+                <div class="footer__three-numbers">
+                    +380 (542) 70-07-55 <br>+380 (542) 65-36-31 <br>+380 (50) 407-01-05
+                </div>
+              </div>
+              <div class="col-2 footer__block-four">
+                <div class="footer__four-text"><b>E-mail:</b><br>pstsnet@gmail.com</div>
+                <ul class="footer__four-ul">
+                    <a  href="https://www.tiktok.com/@psts.net?_t=8l3F6GpdZQs&_r=1"><li class="footer__four-li"><img src="img/soz1.png" alt="" class="sotset"></li></a>
+                    <a href="https://www.facebook.com/profile.php?id=61557551939304"><li class="footer__four-li"><img src="img/soz2.png" alt="" class="sotset"></li></a>  
+                    <a href="https://www.instagram.com/pstsnet?igsh=MWNraDFvNjcxYTI2ZQ=="><li class="footer__four-li"><img src="img/soz3.png" alt="" class="sotset"></li></a>
+                </ul>
+            </div>
+              </div>
+            </div>
+          </div>
+        <!-- <div class="footer__block">
+            <div class="footer__block-one ft">
+                <img src="img/logo.png" alt="" class="footer-logo">
+                <p class="footer-p">Швидкість, якість та<br> зручність у кожному<br> кліку</p>
+            </div>
+            <div class="footer__block-two ft">
+                <img src="img/gps.png" alt="" class="footer-gps">
+                <div class="footer__two-text"><b>Адреса:</b>
+                    <br>пр-т Курський, 18а,<br> оф. PSTS 
+                    <br><b>Графік роботи:</b>
+                    <br>Пн.-Нд. - 9:00-18:00</div>
+            </div>
+            <div class="footer__block-three ft">
+                <h4>Телефони:</h4>
+                <div class="footer__three-numbers">
+                    +380 (542) 70-07-55 <br>+380 (542) 65-36-31 <br>+380 (50) 407-01-05
+                </div>
+            </div>
+            <div class="footer__block-four ft">
+                <div class="footer__four-text"><b>E-mail:</b><br>pstsnet@gmail.com</div>
+                <ul class="footer__four-ul">
+                    <a  href="https://www.tiktok.com/@psts.net?_t=8l3F6GpdZQs&_r=1"><li class="footer__four-li"><img src="img/soz1.png" alt="" class="sotset"></li></a>
+                    <a href="https://www.facebook.com/profile.php?id=61557551939304"><li class="footer__four-li"><img src="img/soz2.png" alt="" class="sotset"></li></a>  
+                    <a href="https://www.instagram.com/pstsnet?igsh=MWNraDFvNjcxYTI2ZQ=="><li class="footer__four-li"><img src="img/soz3.png" alt="" class="sotset"></li></a>
+                </ul>
+            </div>
+        </div> -->  
+    </footer>
+    <section class="link__zaivka">
+        <img src="img/krest2.png" alt="" class="krest">
+        <h1 class="link__zaivka-h1">Залишити заявку</h1>
+        <form action="#" name="submit-to-google-sheet" class="link-form-form" method="post">
+            <input type="text" class="form-link" name="name" id="name" placeholder="Ім'я">
+            <input type="text" class="form-link" name="number" id="number" placeholder="Телефон">
+            <div class="div_form-street">
+                <div class="left-form-street">
+                    <input type="text" class="form-link" name="street" id="street" placeholder="Вулиця">
+                </div>
+                <div class="right-form-street">
+                    <input type="text" class="form-link-pol" name="street-home" id="street-home" placeholder="Будинок">
+                    <input type="text" class="form-link-pol" name="street-number" id="street-number" placeholder="Квартира">
+                </div>
+            </div>
+                <label for="forHome">
+        <input type="checkbox" id="forHome" name="forHome" onclick="toggleCheckbox('forHome', 'forBiznec')">
+        <span class="puper-kostil">Для дому</span>
+    </label>
+    <label for="forBiznec">
+        <input type="checkbox" id="forBiznec" name="forBiznec" onclick="toggleCheckbox('forBiznec', 'forHome')">
+        <span class="puper-kostil">Для бізнесу</span>
+    </label>  
+    <br>
+
+    <script>
+        function toggleCheckbox(checkboxId, otherCheckboxId) {
+            const checkbox = document.getElementById(checkboxId);
+            const otherCheckbox = document.getElementById(otherCheckboxId);
+            if (checkbox.checked) {
+                otherCheckbox.checked = false;
+            }
+        }
+    </script>
+            
+            
+            <button class="button__register" type="submit">Залишити Заявку</button>
+            </form>
+    </section>
+    <script src="js/add.js"></script><script src='js/burger.js'></script><script src="js/aboutMe.js"></script>
+</body>
+</html>

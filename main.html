@@ -1,0 +1,496 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css"><link rel="stylesheet"href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"/>
+    <link rel="stylesheet" href="css/adaptiv.css">
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__osnova">
+            <div class="header__osnova-left">
+                <a href="main.html"><img src="img/logo.png" alt="" class="logo"></a>
+                <a href="main.html#section__menu" onclick="changePosition(1)"><button class="header__left-home header__button">Для дому</button></a>
+                <a href="main.html#section__menu" onclick="changePosition(4)"><button class="header__left-biznec header__button">Для бізнесу</button></a>
+            </div>
+            <div class="header__osnova-right">
+                <a href="map.html"><img src="img/gps.png" alt="" class="gps"></a>
+                <img src="img/user.png" alt="" class="header__right-user">
+                <button class="header__button-link adaptiv">Особитий кабінет</button>
+                <nav>
+                    <a href="/">
+                      <img src="./Untitled70_20231129182816.png" alt="">
+                    </a>
+                    <input id="burger-toggle" type="checkbox">
+                    <label class="burgerburger" for="burger-toggle" id="super_label">
+                      <span></span>
+                    </label>
+                    <ul class="header__list">
+                      <li>
+                        <a href="main.html" class="header__link">Тарифи</a>
+                      </li>
+                      <li>
+                        <a href="shares.html" class="header__link">Акції</a>
+                      </li>
+                      <li>
+                        <a href="payment.html" class="header__link">Оплата</a>
+                      </li>
+                      <li>
+                        <a href="map.html" class="header__link">Покриття</a>
+                      </li>
+                      <li>
+                        <a href="help.html" class="header__link">Допомога</a>
+                      </li>
+                      <li>
+                        <a href="aboutMe.html" class="header__link">Про нас</a>
+                      </li>
+                      
+                      
+                    </ul>
+                  </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <article class="article__osnova">
+        <div class="article__osnova_div">
+            <div class="article__osnova-menu">
+                <div class="dob-left">
+                    <ul class="article__osnova-ul">
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="main.html">Тарифи</a></li>
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="shares.html">Акції</a></li>
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="payment.html">Оплата</a>
+                    </ul>
+                </div>
+                <div class="dob-right">
+                    <ul class="article__osnova-ul">
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="map.html">Покриття</a></li>
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="help.html">Допомога</a></li>
+                        <li class="article__osnova-menu-li"><a class="article_menu-a" href="aboutMe.html">Про нас</a></li>
+                    </ul>
+                </div>
+                
+                <img src="img/polosa.png" alt="" class="header__polosa-right">
+                    <img src="img/polosa.png" alt="" class="header__polosa-left">
+                <img src="img/blaze.png" alt="" class="blize">
+            </div>
+                <div class="swiper-button-pre"><img src="img/left.png" alt="" class="left"></div>
+                <div class="swiper-button-nex"><img src="img/right.png" alt="" class="right"></div> 
+              <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide"><div class="article__osnova-block ">
+                
+                        <div class="osnova_block-left">
+                            <div class="block__osnova_adaptiv">
+                                <h1 class="osnova__block-left-h1">Акція “Приводь друга - отримуй гроші!”</h1>
+                            <p class="osnova__block-left-p">Отримуй <b>бонус</b> в розмірі <b>50</b> грн на особистий рахунок!</p>
+                            <a href="shares.html#sharess"><button class="article-connect1">Підключити</button></a>
+                            </div>
+                        </div>
+                        <div class="osnova_block-right">
+                            <img src="img/musik.png" alt="" class="musik">
+                        </div>
+                    </div></div>
+                    <div class="swiper-slide">
+                        <div class="article__osnova-block ">
+                
+                            <div class="osnova_block-left">
+                                <div class="block__osnova_adaptiv">
+                                    <h1 class="osnova__block-left-h1">Акція “Довше з PSTS - більше переваг!”</h1>
+                                <p class="osnova__block-left-p"></p>
+                                <a href="shares.html#sharess"><button class="article-connect1">Підключити</button></a>
+                                </div>
+                            </div>
+                            <div class="osnova_block-right">
+                                <img src="img/shares1.png" alt="" class="musik sek">
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="swiper-slide">
+                        <div class="article__osnova-block ">
+                
+                            <div class="osnova_block-left">
+                                <div class="block__osnova_adaptiv">
+                                    <h1 class="osnova__block-left-h1">Акція “PSTS вітає Вас!”</h1>
+                                <p class="osnova__block-left-p"></p>
+                                <a href="shares.html#sharess"><button class="article-connect1">Підключити</button></a>
+                                </div>
+                            </div>
+                            <div class="osnova_block-right">
+                                <img src="img/shares1.png" alt="" class="musik sek">
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="swiper-slide">
+                        <div class="article__osnova-block ">
+                
+                            <div class="osnova_block-left">
+                                <div class="block__osnova_adaptiv">
+                                    <h1 class="osnova__block-left-h1">Акція “Нових друзів май, та старих не забувай!”</h1>
+                                <p class="osnova__block-left-p"></p>
+                                <a href="shares.html#sharess"><button class="article-connect1">Підключити</button></a>
+                                </div>
+                            </div>
+                            <div class="osnova_block-right">
+                                <img src="img/shares2.png" alt="" class="musik sek">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div> 
+                
+        </div>
+    </article>
+
+    <section class="section__polosa">
+        
+        <div class="section__polosa-items">
+            <div class="section__polosa-item">
+                <img src="img/glav1.png" alt="" class="section__polosa-img">
+                <h2 class="section__polosa-h2">Новітні технології</h2>
+        </div>
+            <div class="section__polosa-item">
+                <img src="img/glav2.png" alt="" class="section__polosa-img">
+                <h2 class="section__polosa-h2">Великий вибір тарифів</h2>
+            </div>
+            <div class="section__polosa-item">
+                <img src="img/glav3.png" alt="" class="section__polosa-img">
+                <h2 class="section__polosa-h2">Працюємо без світла</h2>
+            </div>
+        </div>
+    </section>
+
+    <article class="article">
+        <div class="article__items">
+            <div class="article__item-one"><img src="img/colo-bar.png" alt=""></div>
+            <div class="article__item-two">
+                <h1 class="article-h1">Чому саме PSTS?</h1>
+                <h5 class="article-h5">Широкий вибір тарифів лише у PSTS.</h4>
+                <p class="article-p">Ми надаємо чітку та зрозумілу інформацію про свої тарифи, щоб ви могли вибрати найкращий варіант для себе?</p>
+                <h5 class="article-h5">Немає світла - інтернет є!</h4>
+                <p class="article-p">Ми використовуємо оптоволоконний кабель, тому інтернет буде працювати навіть з відключеннями світла.</p>
+                <h5 class="article-h5">Різні способи оплати</h4>
+                <p class="article-p">Розраховуйтеся за послуги PSTS зручним для вас способом!</p>
+                <h5 class="article-h5">Доступність</h4>
+                <p class="article-p">Ми пропонуємо тарифи на будь - який бюджет.</p>
+            </div>
+        </div>
+        <img src="img/shares2.png" alt="" class="musik-one">
+    </article>
+
+
+
+    <section class="section__menu">
+        <h1 class="section__menu-h1">Оберіть тарифний план</h1>
+        <div class="section__tarif_menu" id="section__menu">
+            <ul class="section__menu-ul">
+                <li class="section__menu-li"><button type="button" class="section__menu-button but1" onclick="changePosition(1)">Багатоповерхівки</button></li>
+                <li class="section__menu-li"><button type="button" class="section__menu-button but2" onclick="changePosition(2)">Приватний сектор</button></li>
+                <li class="section__menu-li"><button type="button" class="section__menu-button but3" onclick="changePosition(3)">Приватний сектор 2</button></li>
+                <li class="section__menu-li"><button type="button" class="section__menu-button but4" onclick="changePosition(4)">Для бізнесу</button></li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="section__menu-blocks">
+                            
+                            <div id="1 " class="section__menu_content onee oo">
+                                <div class="section__one_content-block">
+                                    <h1 class="section_content-block-h1">Студенський</h1>
+                                    <p class="section_content-block-p">10 Мбіт/с</p>
+                                    <h3 class="section_content-block-h3">130 грн/міс</h3>
+                                    <button class="section_content-block-button">Підключити</button>
+                                </div>
+                                <div class="section__one_content-block">
+                                    <h1 class="section_content-block-h1">Сімейний</h1>
+                                    <p class="section_content-block-p">60 Мбіт/с</p>
+                                    <h3 class="section_content-block-h3">150 грн/міс</h3>
+                                    <button class="section_content-block-button">Підключити</button>
+                                </div>
+                                <div class="section__one_content-block">
+                                    <h1 class="section_content-block-h1">Сімейний+</h1>
+                                    <p class="section_content-block-p">100 Мбіт/с</p>
+                                    <h3 class="section_content-block-h3">160 грн/міс</h3>
+                                    <button class="section_content-block-button">Підключити</button>
+                                </div>
+                                <div class="section__one_content-block">
+                                    <h1 class="section_content-block-h1">Швидкісний</h1>
+                                    <p class="section_content-block-p">200 Мбіт/с</p>
+                                    <h3 class="section_content-block-h3">350 грн/міс</h3>
+                                    <button class="section_content-block-button">Підключити</button>
+                                </div>
+                                <div class="section__one_content-block">
+                                    <h1 class="section_content-block-h1">Ігровий</h1>
+                                    <p class="section_content-block-p">300 Мбіт/с</p>
+                                    <h3 class="section_content-block-h3">380 грн/міс</h3>
+                                    <button class="section_content-block-button">Підключити</button>
+                                </div>
+                            </div>
+        <div id="2" class="section__menu_content tt" style="opacity:0;">
+            <div class="section__one_content-block">
+                <h1 class="section_content-block-h1">Простий</h1>
+                <p class="section_content-block-p">30 Мбіт/с</p>
+                <h3 class="section_content-block-h3">170 грн/міс</h3>
+                <button class="section_content-block-button">Підключити</button>
+            </div>
+            <div class="section__one_content-block">
+                <h1 class="section_content-block-h1">Стандарт</h1>
+                <p class="section_content-block-p">80 Мбіт/с</p>
+                <h3 class="section_content-block-h3">200 грн/міс</h3>
+                <button class="section_content-block-button">Підключити</button>
+            </div>
+            <div class="section__one_content-block">
+                <h1 class="section_content-block-h1">Сімейний</h1>
+                <p class="section_content-block-p">100 Мбіт/с</p>
+                <h3 class="section_content-block-h3">240 грн/міс</h3>
+                <button class="section_content-block-button">Підключити</button>
+            </div>
+            <div class="section__one_content-block">
+                <h1 class="section_content-block-h1">Вільний</h1>
+                <p class="section_content-block-p">100 Мбіт/с</p>
+                <h3 class="section_content-block-h3">300 грн/міс</h3>
+                <button class="section_content-block-button">Підключити</button>
+            </div>
+            <div class="section__one_content-block">
+                <h1 class="section_content-block-h1">Швидкісний</h1>
+                <p class="section_content-block-p">200 Мбіт/с</p>
+                <h3 class="section_content-block-h3">350 грн/міс</h3>
+                <button class="section_content-block-button">Підключити</button>
+            </div>
+            
+                
+            
+            
+        </div>
+        <div id="3" class="section__menu_content th" style="opacity:0;">
+            <div class="section__block-text">
+                <p class="section__text">с. Верхне Піщане, с. Шевченкове, с. Кровне, с.Руднівка, с. Стецьківка, с.
+                    Миколаївка, с. Радьківка, с. Кардашівка, с.Хотінь, с. Писарівка, с. Терешківка, с.
+                    Великі Вільми, с.Симонівка, с. Олексіївка, с. Сула, с. Голубівка, с. Грамине, с.
+                    Печище, с.Рибці, с. Москалівщина, с. Никонці, с. Сіробабине, с. Степне, с.
+                    Кіндратівка, с. Кекино, с. Капітанівка, с. Спаське, с. Графське, с. Гриценкове, с.
+                    Трофименкове, с. Рибці, с. Ясени, с. Яструбине, с.Водолаги, с. Біловоди, с.
+                    Костянтинівка, с. Новомиколаївка, с. Загірське</p>
+            </div>
+            <div class="section__one_content-block">
+                <h1 class="section_content-block-h1">Простий</h1>
+                <p class="section_content-block-p">30 Мбіт/с</p>
+                <h3 class="section_content-block-h3">220 грн/міс</h3>
+                <button class="section_content-block-button">Підключити</button>
+            </div>
+            <div class="section__one_content-block">
+                <h1 class="section_content-block-h1">Стандарт</h1>
+                <p class="section_content-block-p">80 Мбіт/с</p>
+                <h3 class="section_content-block-h3">250 грн/міс</h3>
+                <button class="section_content-block-button">Підключити</button>
+            </div>
+            <div class="section__one_content-block">
+                <h1 class="section_content-block-h1">Сімейний+</h1>
+                <p class="section_content-block-p">150 Мбіт/с</p>
+                <h3 class="section_content-block-h3">300 грн/міс</h3>
+                <button class="section_content-block-button">Підключити</button>
+            </div>
+            
+            <div class="section__one_content-block">
+                <h1 class="section_content-block-h1">Ігровий</h1>
+                <p class="section_content-block-p">300 Мбіт/с</p>
+                <h3 class="section_content-block-h3">380 грн/міс</h3>
+                <button class="section_content-block-button">Підключити</button>
+            </div>
+        </div>
+        <div id="4" class="section__menu_content ff" style="opacity:0;">
+            <div class="section__biznec-block">
+                <h1 class="section__biznec-h1">Бізнес пакет</h1>
+                <h6 class="section__biznec-h6">300 Мбіт/с</h6>
+                <p class="section__biznec-p">600 грн/міс</p>
+                <button class="section__biznec-button">Підключити</button>
+            </div>
+        </div>
+        <img src="img/provoda.png" alt="" class="cabela">
+    </section>
+
+
+
+
+    <section class="section__polosa-two">
+        <h1 class="section__polosa-two-h1">Всього один дзвінок відділяє вас від підключення до PSTS</h1>
+        <p class="section__polosa-two-p">Вкажіть свій номер телефону та очікуйте на зворотній зв’язок</p>
+        <button class="section__polosa-two-button">Номер телефону <img src="img/mobile.png" alt="" class="section__polosa-two-mobile"></button>
+    </section>
+
+
+    <section class="section__blocks-four">
+        <div class="section__block-four">
+            <div class="obb">
+                <div class="one__obb"><h1 class="block-four-h1">Чернішова Інна</h1></div>
+                <img src="img/check-mark.png" alt="" class="block-four-img">
+        </div>
+            <p class="block-four-p">Добрий день! Хочу поділитись досвідом підключення інтернету. Дуже подобається швидкість та ціна! Великим плюсом є робота операторів, які в разі будь-який питань завжди на зв’язку та готові допомогти. Обожнюю psts, дякую вам за вашу роботу!</p>
+
+        </div>
+        <div class="section__block-four">
+            <div class="obb">
+                <div class="one__obb"><h1 class="block-four-h1">Петренко Богдан</h1></div>
+                <img src="img/check-mark.png" alt="" class="block-four-img">
+        </div>
+           
+            <p class="block-four-p">Добрий день! Хочу поділитись досвідом підключення інтернету. Дуже подобається швидкість та ціна! Великим плюсом є робота операторів, які в разі будь-який питань завжди на зв’язку та готові допомогти. Обожнюю psts, дякую вам за вашу роботу!</p>
+
+        </div>
+        <div class="section__block-four">
+            <div class="obb">
+                <div class="one__obb"><h1 class="block-four-h1">Іванченко Ірина</h1></div>
+                <img src="img/check-mark.png" alt="" class="block-four-img">
+        </div>
+            
+            <p class="block-four-p">Третій раз змінюю інтернет-провайдера за цей рік. Нарешті підключила дійсно швидкий та гарний інтернет. Все працює без перебоїв! Дуже рекомендую!</p>
+
+        </div>
+    </section>
+    
+    <div class="button__dop-four"><button class="section__button-four">Більше відгуків</button></div>
+    <section class="payment__section adaptiv">
+        <h1 class="payment-h1">Часті питання</h1>
+        <div class="payment__div">
+            <button class="accordion">1. Що таке “Особистий кабінет”?</button>
+                <div class="panel">
+                    <p class="payment__div-p">У веб-системі керування послугами «Особистий кабінет» ви можете самостійно контролювати свій рахунок, переглядати статистику користування Інтернетом, керувати послугами і замовляти додаткові сервіси.</p>
+                </div>
+                <button class="accordion">2. Що робити при відсутності доступу до мережі Інтернет?</button>
+                    <div class="panel">
+                        <p class="payment__div-p"><div class="panel_flex">• <div>Перевірте чи підключений кабельний модем до живлення. Перевірте чи правильно підключений мережевий кабель до модему та Вашого комп’ютера.</div></div><br><br>  
+                            <div class="panel_flex">• <div>Якщо кабель підключений, перевірте чи розпізнає Ваша операційна система мережевий адаптер (чи встановлені драйвера до нього).</div></div><br><br> 
+                            <div class="panel_flex">• <div>Якщо мережевий адаптер є, але доступу до Інтернету немає, зайдіть на сторінку статистики і перевірте стан Вашого рахунку.</div></div><br><br> 
+                            <div class="panel_flex">• <div>Якщо сторінка статистики недоступна, перевірте чи включено мережеве підключення. Для цього натисніть [Пуск], [Панель керування], [Мережні підключення]. У вікні що відкриється буде ярлик «Подключение по локальной сети». Включіть мережеве підключення виділивши цей ярлик і натиснувши [Enter].</div></div></p>
+                    </div>
+                    <button class="accordion">3. Якщо я не користувався Інтернетом, чи повинен
+                        я сплачувати за нього?</button>
+                    <div class="panel">
+                        <p class="payment__div-p">Якщо з певних причин Ви не користуєтеся послугами Інтернет, Ви маєте можливість призупинити послугу (див. розділ «Послуги»). В протилежному випадку Вам нараховується абонплата.</p>
+                    </div>
+            </div>
+              
+    </section>
+    <span class="bububu"><div id="map"></div></span>
+    <footer class="footer">
+        <div class="footer__bar-menu">
+            <ul class="footer__menu-ul">
+                <li class="footer__menu-li"><a href="main.html" class="footer__menu-a ">Тaрифи</a></li>
+                <li class="footer__menu-li"><a href="shares.html" class="footer__menu-a">Акції</a></li>
+                <li class="footer__menu-li"><a href="payment.html" class="footer__menu-a">Оплата</a></li>
+                <li class="footer__menu-li"><a href="map.html" class="footer__menu-a">Покриття</a></li>
+                <li class="footer__menu-li"><a href="help.html" class="footer__menu-a">Допомога</a></li>
+                <li class="footer__menu-li"><a href="help.html" class="footer__menu-a">Про нас</a></li>
+            </ul>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+              <div class="col-3 footer__block-one">
+                <img src="img/logo.png" alt="" class="footer-logo">
+                <p class="footer-p">Швидкість, якість та<br> зручність у кожному<br> кліку</p>
+                <p class="footer-p-adaptiv">Швидкість, якість та<br> зручність у кожному<br> кліку</p>
+              </div>
+              <div class="col-3 footer__block-two">
+                
+                <div class="footer__two-text"><b>Адреса:</b>
+                    <br>пр-т Курський, 18а,<br> оф. PSTS 
+                    <br><b>Графік роботи:</b>
+                    <br>Пн.-Нд. - 9:00-18:00</div>
+              </div>
+              <div class="col-3 footer__block-three">
+                <h4 class="h44"><b>Телефони:</b></h4>
+                <div class="footer__three-numbers">
+                    +380 (542) 70-07-55 <br>+380 (542) 65-36-31 <br>+380 (50) 407-01-05
+                </div>
+              </div>
+              <div class="col-2 footer__block-four">
+                <div class="footer__four-text"><b>E-mail:</b><br>pstsnet@gmail.com</div>
+                <ul class="footer__four-ul">
+                    <a  href="https://www.tiktok.com/@psts.net?_t=8l3F6GpdZQs&_r=1"><li class="footer__four-li"><img src="img/soz1.png" alt="" class="sotset"></li></a>
+                    <a href="https://www.facebook.com/profile.php?id=61557551939304"><li class="footer__four-li"><img src="img/soz2.png" alt="" class="sotset"></li></a>  
+                    <a href="https://www.instagram.com/pstsnet?igsh=MWNraDFvNjcxYTI2ZQ=="><li class="footer__four-li"><img src="img/soz3.png" alt="" class="sotset"></li></a>
+                </ul>
+            </div>
+              </div>
+            </div>
+          </div>
+        <!-- <div class="footer__block">
+            <div class="footer__block-one ft">
+                <img src="img/logo.png" alt="" class="footer-logo">
+                <p class="footer-p">Швидкість, якість та<br> зручність у кожному<br> кліку</p>
+            </div>
+            <div class="footer__block-two ft">
+                <img src="img/gps.png" alt="" class="footer-gps">
+                <div class="footer__two-text"><b>Адреса:</b>
+                    <br>пр-т Курський, 18а,<br> оф. PSTS 
+                    <br><b>Графік роботи:</b>
+                    <br>Пн.-Нд. - 9:00-18:00</div>
+            </div>
+            <div class="footer__block-three ft">
+                <h4>Телефони:</h4>
+                <div class="footer__three-numbers">
+                    +380 (542) 70-07-55 <br>+380 (542) 65-36-31 <br>+380 (50) 407-01-05
+                </div>
+            </div>
+            <div class="footer__block-four ft">
+                <div class="footer__four-text"><b>E-mail:</b><br>pstsnet@gmail.com</div>
+                <ul class="footer__four-ul">
+                    <a  href="https://www.tiktok.com/@psts.net?_t=8l3F6GpdZQs&_r=1"><li class="footer__four-li"><img src="img/soz1.png" alt="" class="sotset"></li></a>
+                    <a href="https://www.facebook.com/profile.php?id=61557551939304"><li class="footer__four-li"><img src="img/soz2.png" alt="" class="sotset"></li></a>  
+                    <a href="https://www.instagram.com/pstsnet?igsh=MWNraDFvNjcxYTI2ZQ=="><li class="footer__four-li"><img src="img/soz3.png" alt="" class="sotset"></li></a>
+                </ul>
+            </div>
+        </div> -->
+    </footer>
+    <section class="link__zaivka">
+        <img src="img/krest2.png" alt="" class="krest">
+        <h1 class="link__zaivka-h1">Залишити заявку</h1>
+        <form action="#" name="submit-to-google-sheet" class="link-form-form" method="post">
+            <input type="text" class="form-link" name="name" id="name" placeholder="Ім'я">
+            <input type="text" class="form-link" name="number" id="number" placeholder="Телефон">
+            <div class="div_form-street">
+                <div class="left-form-street">
+                    <input type="text" class="form-link" name="street" id="street" placeholder="Вулиця">
+                </div>
+                <div class="right-form-street">
+                    <input type="text" class="form-link-pol" name="street-home" id="street-home" placeholder="Будинок">
+                    <input type="text" class="form-link-pol" name="street-number" id="street-number" placeholder="Квартира">
+                </div>
+            </div>
+                <label for="forHome">
+        <input type="checkbox" id="forHome" name="forHome" onclick="toggleCheckbox('forHome', 'forBiznec')">
+        <span class="puper-kostil">Для дому</span>
+    </label>
+    <label for="forBiznec">
+        <input type="checkbox" id="forBiznec" name="forBiznec" onclick="toggleCheckbox('forBiznec', 'forHome')">
+        <span class="puper-kostil">Для бізнесу</span>
+    </label>  
+    <br>
+
+    <script>
+        function toggleCheckbox(checkboxId, otherCheckboxId) {
+            const checkbox = document.getElementById(checkboxId);
+            const otherCheckbox = document.getElementById(otherCheckboxId);
+            if (checkbox.checked) {
+                otherCheckbox.checked = false;
+            }
+        }
+    </script>
+            
+            
+            <button class="button__register" type="submit">Залишити Заявку</button>
+            </form>
+    </section>
+    <script src="js/link.js"></script>
+    <script src="js/main.js"></script>
+    <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDJzY3zu1Q_deJb6Q_QUAnlWnOE-Ekz_Vc&callback=init"></script>
+ <script src="js/map.js"></script> <script src='js/burger.js'></script>
+</body>
+</html>    
